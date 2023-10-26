@@ -13,7 +13,7 @@ const {
   VITE_STORAGEBUCKET,
   VITE_MESSAGINGSENDERID,
   VITE_APPID,
-} = getEnvironments();
+} = import.meta.env;
 
 
 //Testing:
