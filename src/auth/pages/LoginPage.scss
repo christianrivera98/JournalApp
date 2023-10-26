@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+.title-app{
+  & .loginTitle-h1{
+    font-size: 50px;
+    font-family:  'Agbalumo'  ;
+  }
+}
+
+.correoGrid{
+  width: 100%;
+}
+
+.form-container {
+  width: 30%;
+  height: 60vh; /* Esto establece la altura al 100% del viewport (ventana del navegador) */
+  background-color: #ffffff;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+ 
+  // align-items: center;
+& .form-login{
+  margin-top: 5%;
+}
+
+  & form {
+    
+    & .loginTitle-h1 {
+      margin-bottom: 10%;
+    }
+
+    & .loginTitle-h3 {
+      border-bottom: 1px solid black;
+      width: 55%;
+    }
+
+
+
+    & .buttonLogin{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      margin-left: 20%;
+      gap: 15px;
+      padding: 5px;
+      align-items: center;
+      width: 60%;
+      height: 40px;
+      font-size: 15px;
+      font-weight: 600;
+      background-color: #b2e2f2;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+  
+      &:hover {
+        color: #ffffff;
+      }
+    }
+
+    & .correo-p {
+      font-size: 15px;
+      font-weight: 600;
+    }
+  
+    & .contraseña-p {
+      font-size: 15px;
+      font-weight: 600;
+    }
+  
+    & .sinCuenta-container {
+      display: flex;
+      margin-top: 1%;
+  
+      & .sinCuenta-p {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 3px;
+      }
+  
+      & .sinCuenta-button {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        border: none;
+        background: none;
+        font-size: 15px;
+        font-weight: 600;
+        color: #87cefa;
+        cursor: pointer;
+  
+        &:hover {
+          color: #b2e2f2;
+        }
+      }
+    }
+  
+    & .other-container {
+      display: flex;
+      // justify-content: center;
+      // align-items: center;
+      width: 100%;
+  
+      & .other-p {
+        margin-top: 10px;
+      }
+    }
+  
+    & .loginGoogle-Container {
+      display: flex;
+      gap: 15px;
+      padding: 5px;
+      align-items: center;
+      width: 55%;
+      background-color: #b2e2f2;
+      font-weight: 600;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+  
+      &:hover {
+        color: #ffffff;
+      }
+      & img {
+        width: 25px;
+        margin-left: 2px;
+      }
+    }
+  
+    & .register-inputButton {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      margin-left: 20%;
+      gap: 15px;
+      padding: 5px;
+      align-items: center;
+      width: 50%;
+      background-color: #b2e2f2;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-weight: 600;
+  
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+
+
+}
